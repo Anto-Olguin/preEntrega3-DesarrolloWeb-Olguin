@@ -27,7 +27,7 @@ body {
   /* Anidamiento para #main */
   /* Anidamiento para #main_envio */
 }
-body#main {
+body #main {
   display: grid;
   grid-template-areas: "header" "servicios" "footer";
   grid-template-rows: 10% auto 20%;
@@ -36,7 +36,7 @@ body#main {
   height: 100%;
   width: 100%;
 }
-body#main_envio {
+body #main_envio {
   display: grid;
   grid-template-areas: "header" "banner" "servicios" "footer";
   grid-template-rows: 10% 20% auto 20%;

@@ -26,7 +26,7 @@ body {
   place-items: center;
 
   /* Anidamiento para #main */
-  &#main {
+  #main {
     display: grid;
     grid-template-areas:
       "header"
@@ -40,7 +40,7 @@ body {
   }
 
   /* Anidamiento para #main_envio */
-  &#main_envio {
+  #main_envio {
     display: grid;
     grid-template-areas:
       "header"
