@@ -64,7 +64,7 @@ section#front {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url(/img/fondo.jpg);
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 
   /* Anidamiento para #front */
@@ -185,7 +185,7 @@ header {
 section#banner {
   height: auto;
   grid-area: banner;
-  background-image: url(/img/gradient.png);
+  background-image: url(../img/gradient.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -242,7 +242,7 @@ section#servicios {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url(/img/slide5-op.jpg);
+    background-image: url(../img/slide5-op.jpg);
     background-size: cover;
   }
 
