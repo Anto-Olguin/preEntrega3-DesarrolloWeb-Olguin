@@ -199,7 +199,7 @@ section#servicios p {
     font-size: 1rem;
   }
 }
-section#servicios section form#form_envio {
+section#servicios #form_envio {
   padding: 2rem;
   grid-area: servicios;
   display: flex;
@@ -209,7 +209,7 @@ section#servicios section form#form_envio {
   background-image: url(/img/slide5-op.jpg);
   background-size: cover;
 }
-section#servicios form#form_envio {
+section#servicios #form_envio {
   width: 100%;
   height: 100%;
   color: #fafafa;
