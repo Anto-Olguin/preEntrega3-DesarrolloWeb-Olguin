@@ -128,6 +128,9 @@ header .nav-link:hover,
 header .nav-link:focus {
   color: #6a0fd2;
 }
+header .toggle-menu-checkbox {
+  display: none;
+}
 header .hamburger {
   display: none;
   flex-direction: column;
@@ -138,6 +141,19 @@ header .hamburger .line {
   height: 5px;
   background-color: #fe5802;
   margin-bottom: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+header .toggle-menu-checkbox:checked ~ .hamburger .line:nth-child(1) {
+  opacity: 0;
+}
+header .toggle-menu-checkbox:checked ~ .hamburger .line:nth-child(2) {
+  transform: rotate(35deg) translate(0, 6px);
+}
+header .toggle-menu-checkbox:checked ~ .hamburger .line:nth-child(3) {
+  transform: rotate(-35deg) translate(0, -6px);
+}
+header .toggle-menu-checkbox:checked ~ .menu {
+  display: block;
 }
 @media (max-width: 768px) {
   header .nav-link {
